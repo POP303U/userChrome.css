@@ -18,5 +18,11 @@ Any theme and density should work, but the theme is meant to be used with Firefo
 
 If you want to watch a video explaining the installation process, [watch my video here](https://www.youtube.com/watch?v=0QVs1jVuA8c).
 
+## Startmenu
+
+You can find the startmenu used in this screenshot at [firefox plugin store](https://addons.mozilla.org/en-US/firefox/addon/bonjourr-startpage/)
+
+The Bonjourr theme can be found in my [customization-tooling](https://github.com/POP303U/customization-tooling) repo. 
+
 ## Credits
 Based off [FirefoxCSS-Darknight](https://github.com/BriLHR/FirefoxCSS-Darknight) and [keyfox](https://github.com/AlfarexGuy2019/keyfox/), with additional lines from [Cascade](https://github.com/andreasgrafen/cascade).
