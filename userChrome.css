@@ -1,16 +1,22 @@
 /* Base color for the theme, dependent on whether it's a light theme or not */
 @media (prefers-color-scheme: dark) {
     :root {
-        --accent-color: #1c1b22;
+        --accent-color: #191724;
     }
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --accent-color: #FAFAFC;
+        --accent-color: #faf4ed;
     }
 }
+
 /*====== Aesthetics ======*/
+
+#personal-bookmarks {
+    background-color: var(--accent-color) !important;
+    color: white !important;
+}
 
 #navigator-toolbox {
     border-bottom: none !important;
@@ -66,12 +72,19 @@ toolbar#nav-bar {
         width: calc(100vw - var(--navbarWidth) - 1px);
     }
 
-    /* Bookmarks bar */
+   /* Bookmarks bar */
     #PersonalToolbar {
         order: 3;
         width: 100%;
+        height: 35px !important; /* Adjust the height as needed */
+        margin-right: 6px !important;
+        margin-left: 6px !important;
     }
-    
+
+    #PersonalToolbar toolbarbutton.bookmark-item {
+        min-height: 30px !important; /* Adjust the height as needed */
+    }
+
     /* Fix urlbar sometimes being misaligned */
     :root[uidensity="compact"] #urlbar {
         --urlbar-toolbar-height: 39.60px !important;
@@ -98,7 +111,11 @@ toolbar#nav-bar {
 }
 
 /* Remove UI elements */
+#star-button, /* Bookmark star (Ctrl-D) */
 #identity-box, /* Site information */
+#appMenu-more-button,
+#appMenu-addons-button,
+#appMenu-developer-button,
 #tracking-protection-icon-container, /* Shield icon */
 #page-action-buttons > :not(#urlbar-zoom-button, #star-button-box), /* All url bar icons except for zoom level and bookmarks */
 #urlbar-go-button, /* Search URL magnifying glass */
@@ -127,19 +144,3 @@ toolbar#nav-bar {
 > .tabbrowser-tab[first-visible-unpinned-tab] {
     margin-inline-start: 0 !important;
 }
-
-/* Hide the hamburger menu */
-#PanelUI-menu-button { 
-    padding: 0px !important;
-}
-
-#PanelUI-menu-button .toolbarbutton-icon { 
-    width: 1px !important; 
-}
-
-#PanelUI-menu-button .toolbarbutton-badge-stack {
-    padding: 0px !important; 
-}
-
-
-
