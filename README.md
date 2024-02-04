@@ -1,6 +1,6 @@
 <div align="center">
 
-  ![Screenshot of Firefox with the userChrome.css applied](https://raw.githubusercontent.com/ericmurphyxyz/userChrome.css/main/screenshot.png)
+  ![Screenshot of Firefox with the userChrome.css applied](https://github-production-user-asset-6210df.s3.amazonaws.com/115036828/302109182-156f7873-45f2-412f-9599-6a5b307df8d7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240204%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240204T141537Z&X-Amz-Expires=300&X-Amz-Signature=df7960a936006d55b1abc07d06efde60f4d66a481c4fe880b359eb74267433c1&X-Amz-SignedHeaders=host&actor_id=115036828&key_id=0&repo_id=609767977)
   
 </div>
 
